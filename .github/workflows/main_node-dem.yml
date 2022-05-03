@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'node-dem'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_66B2121570B94BD9AD3B59D78E1A2081 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D2F048734775457BA76A85D5D84D1608 }}
           package: .
