@@ -51,6 +51,5 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'node-js-api'
-          slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0B2C0B1F52994905A0E8EE8CB6D5ED76 }}
-          package: .
+          package: .dist/nodeDemo
